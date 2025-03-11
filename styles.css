@@ -495,7 +495,8 @@
       right: -100%;
       width: 250px;
       height: 100vh;
-      background: var(--color-primario);
+      background: rgba(37, 50, 92, 0.75);
+      backdrop-filter: blur(5px);
       transition: right 0.3s ease-in-out;
       text-align: center;
       padding-top: 3rem;
