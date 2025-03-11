@@ -315,10 +315,12 @@
   }
   
   #contacto {
-    background-color: var(--color-secundario);
+    background: linear-gradient(to bottom, #4C7AC8, #25325C); 
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 5rem 1rem;
+    min-height: 600px; 
   }
+
   
   .titulo-seccion {
     color: var(--color-muy-claro);
@@ -464,7 +466,8 @@
   /* Móvil */
   @media (max-width: 768px) {
     header {
-      background: var(--color-primario);
+      background: rgba(37, 50, 92, 0.75);
+      backdrop-filter: blur(5px);
       flex-direction: row; 
       justify-content: space-between; 
       align-items: center; 
