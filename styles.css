@@ -582,6 +582,10 @@ hr {
   #habilidades h2{
     font-size: 2rem;
   }
+
+  #experiencia h2 {
+    font-size: 2rem;
+  }
   
   .habilidades-container {
     display: grid;
