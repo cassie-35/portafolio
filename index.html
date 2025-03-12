@@ -12,218 +12,240 @@
     <script src="script.js"></script>
 </head>
 
-<body>
-  <header>
-    <a href="index.html" class="logo">
-      <img src="recursos/logo-dv.png" alt="Logo Cassandra Damian">
-    </a>
+<body>    
 
-    <button class="menu-toggle" id="menuToggle">
-      <i class="fas fa-bars"></i>
-    </button>
+    <!-- Header -->
+    <header>
+        <a href="index.html" class="logo">
+            <img src="recursos/logo-dv.png" alt="Logo Cassandra Damian">
+        </a>
 
-    <nav id="navMenu">
-      <ul>
-        <li><a href="#banner">Inicio</a></li>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#experiencia">Experiencia</a></li>
-        <li><a href="#contacto">Contáctame</a></li>
-        <li><a href="recursos/CV - CNDV.pdf" class="cv-btn" download>Descargar CV</a></li>
-      </ul>
-    </nav>
-  </header>
+        <button class="menu-toggle" id="menuToggle">  
+            <i class="fas fa-bars"></i>
+        </button>
 
-  <!-- Banner -->
-  <section class="banner" id="banner">
-    <article class="info">
-      <p>Hola, mi nombre es</p>
-      <h1>Cassandra Damian</h1>
-      <p>Diseño y desarrollo web</p>
-      <address>
-        <a href="mailto:cndv35@gmail.com">cndv35@gmail.com</a><br>
-        <a href="tel:+51950689401">950 689 401</a>
-      </address>
-    </article>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#banner">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#contacto">Contáctame</a></li>
+                <li><a href="recursos/CV - CNDV.pdf" class="cv-btn" download>Descargar CV</a></li>
+            </ul>
+        </nav>
+    </header>
+  
+    <!-- Banner -->
+    <section class="banner" id="banner">
+        <article class="info">
+            <p>Hola, mi nombre es</p>
+            <h1>Cassandra Damian</h1>
+            <p>Diseño y desarrollo web</p>
+            <address>
+                <a href="mailto:cndv35@gmail.com" class="icon-link"><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/51950689401" target="_blank" class="icon-link"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/cassie-35" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
+            </address>
+        </article>
+    
+        <figure class="imagen">
+            <img src="recursos/cndv.png" alt="Cassandra Damian">
+        </figure>
+    </section>    
+  
+    <!-- Sobre mi -->
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Desarrolladora web apasionada, en constante aprendizaje y en busca de nuevos desafíos. Diseño sitios web atractivos, funcionales y fáciles de usar.</p>
+        <p>Estudiante del quinto semestre en SENATI. Me especializo en crear sitios dinámicos, optimizados y enfocados en la experiencia del usuario.</p>
+        <p>Busco especializarme en interfaces intuitivas y optimizadas para móviles.</p>
+    </section>
 
-    <figure class="imagen">
-      <img src="recursos/cndv.png" alt="Cassandra Damian">
-    </figure>
-  </section>
+    <!-- Proyectos -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <article class="proyecto">
+            <a href="https://ayc-cleaningservices.com/" target="_blank">
+                <img src="recursos/ayccleaningservices.png" alt="A&C Cleaning Services">
+            </a>
+            <div class="info">
+                <h3>A&C Cleaning Services</h3>
+                <p>Sitio web para una empresa de limpieza profesional, con una estructura clara y moderna. Se priorizó la presentación de servicios con imágenes de alta calidad y una navegación intuitiva para los clientes.</p>
+            </div>
+        </article>
 
-  <!-- Sobre mi -->
-  <section id="sobre-mi">
-      <h2>Sobre Mí</h2>
-      <p>Desarrolladora web apasionada, en constante aprendizaje y en busca de nuevos desafíos. Diseño sitios web atractivos, funcionales y fáciles de usar.</p>
-      <p>Estudiante del quinto semestre en SENATI. Me especializo en crear sitios dinámicos, optimizados y enfocados en la experiencia del usuario.</p>
-      <p>Busco especializarme en interfaces intuitivas y optimizadas para móviles.</p>
-  </section>
-
-  <!-- Proyectos -->
-  <section id="proyectos">
-      <h2>Proyectos</h2>
-
-      <article class="proyecto">
-          <a href="https://ayc-cleaningservices.com/" target="_blank">
-              <img src="recursos/ayccleaningservices.png" alt="A&C Cleaning Services">
-          </a>
-          <div class="info">
-              <h3>A&C Cleaning Services</h3>
-              <p>Sitio web para una empresa de limpieza profesional, con una estructura clara y moderna. Se priorizó la presentación de servicios con imágenes de alta calidad y una navegación intuitiva para los clientes.</p>
-          </div>
-      </article>
-
-      <hr>
-
-      <article class="proyecto">
-          <a href="https://estudiojuridicocarpio.com/" target="_blank">
-              <img src="recursos/estudiojuridicocarpio.png" alt="Estudio Jurídico Carpio">
-          </a>
-          <div class="info">
-              <h3>Estudio Jurídico Carpio</h3>
-              <p>Página web para un estudio de abogados, diseñada para transmitir confianza y profesionalismo. Se implementaron secciones para servicios legales, contacto y una interfaz amigable para clientes en búsqueda de asesoría.</p>
-          </div>
-      </article>
-
-      <hr>
-
-      <article class="proyecto">
-          <a href="https://mastercleen.com/" target="_blank">
-              <img src="recursos/mastercleen.png" alt="Master Cleen">
-          </a>
-          <div class="info">
-              <h3>Master Cleen</h3>
-              <p>Plataforma para una empresa de limpieza, con un diseño atractivo y funcional. Se integraron formularios de contacto optimizados y una presentación clara de los servicios ofrecidos.</p>
-          </div>
-      </article>
-
-      <hr>
-
-      <article class="proyecto">
-          <a href="https://elbuencontador.pe/" target="_blank">
-              <img src="recursos/elbuencontador.png" alt="El Buen Contador">
-          </a>
-          <div class="info">
-              <h3>El Buen Contador</h3>
-              <p>Sitio web para una firma contable, destacando sus servicios financieros y asesoría para empresas. Se implementó un diseño profesional con un enfoque en la claridad y accesibilidad de la información.</p>
-          </div>
-      </article>
-  </section>
-
-  <!-- Habilidades -->
-  <section id="habilidades">
-      <h2>Habilidades</h2>
-      <div class="habilidades-container">
-          <div class="habilidad">
-              <img src="recursos/html.png" alt="HTML">
-              <p>HTML</p>
-          </div>
-
-          <div class="habilidad">          
-              <img src="recursos/xamarin.png" alt="Xamarin">
-              <p>Xamarin</p>
-          </div>
-          
-          <div class="habilidad">
-              <img src="recursos/woocommerce.png" alt="WooCommerce">
-              <p>WooCommerce</p>
-          </div>
-          
-          <div class="habilidad">
-              <img src="recursos/boostrap.png" alt="Bootstrap">
-              <p>Bootstrap</p>
-          </div>
-          
-          <div class="habilidad">
-              <img src="recursos/php.png" alt="PHP">
-              <p>PHP</p>
-          </div>
-          
-          <div class="habilidad">
-              <img src="recursos/wordpress.png" alt="WordPress">
-              <p>WordPress</p>
-          </div>
-          
-          <div class="habilidad">
-              <img src="recursos/mysql.png" alt="MySQL">
-              <p>MySQL</p>
-          </div>
-          
-          <div class="habilidad">
-              <img src="recursos/illustrator.png" alt="Adobe Illustrator">
-              <p>Adobe Illustrator</p>
-          </div>
-          
-          <div class="habilidad">
-              <img src="recursos/js.png" alt="JavaScript">
-              <p>JavaScript</p>
-          </div>
-          
-          <div class="habilidad">
-              <img src="recursos/python.png" alt="Python">
-              <p>Python</p>
-          </div>
-          
-          <div class="habilidad">
-              <img src="recursos/css.png" alt="CSS">
-              <p>CSS</p>
-          </div>
-          
-          <div class="habilidad">
-              <img src="recursos/csharp.png" alt="C#">
-              <p>C#</p>
-          </div>
-      </div>
-  </section>
-
-  <!-- Experiencia -->
-  <section id="experiencia">
-    <h2>Experiencia</h2>
-    <div class="contenedor-experiencia">
-        <div class="tarjeta">
-            <img src="recursos/tw.webp" alt="Logo Empresa 1">
-            <h3>TECNOVEDADES E.I.R.L</h3>
-            <p class="fecha">Febrero 2024 - Mayo 2024</p>
-            <p class="descripcion">- Desarrollo de sitios web personalizados con WordPress.</p>
-            <p class="descripcion">- Configuración y gestión de correos en Zoho Mail.</p>
-            <p class="descripcion">- Asistencia en reuniones con clientes para explicar el uso de sus sitios web.</p>
-        </div>
+        <hr>
         
-        <div class="tarjeta">
-            <img src="recursos/cs.jpg" alt="Logo Empresa 2">
-            <h3>Grupo Consigue Ventas Inversiones E.I.R.L</h3>
-            <p class="fecha">Septiembre/2024 - Enero/2025</p>
-            <p class="descripcion">- Desarrollo de sitios web personalizados con WordPress.</p>
-            <p class="descripcion">- Desarrollo de sitios web personalizados con WordPress.</p>
-            <p class="descripcion">- Desarrollo de sitios web personalizados con WordPress.</p>
+        <article class="proyecto">
+            <a href="https://estudiojuridicocarpio.com/" target="_blank">
+                <img src="recursos/estudiojuridicocarpio.png" alt="Estudio Jurídico Carpio">
+            </a>
+            <div class="info">
+                <h3>Estudio Jurídico Carpio</h3>
+                <p>Página web para un estudio de abogados, diseñada para transmitir confianza y profesionalismo. Se implementaron secciones para servicios legales, contacto y una interfaz amigable para clientes en búsqueda de asesoría.</p>
+            </div>
+        </article>
+        
+        <hr>
+
+        <article class="proyecto">
+            <a href="https://mastercleen.com/" target="_blank">
+                <img src="recursos/mastercleen.png" alt="Master Cleen">
+            </a>
+            <div class="info">
+                <h3>Master Cleen</h3>
+                <p>Plataforma para una empresa de limpieza, con un diseño atractivo y funcional. Se integraron formularios de contacto optimizados y una presentación clara de los servicios ofrecidos.</p>
+            </div>
+        </article>
+        
+        <hr>
+        
+        <article class="proyecto">
+            <a href="https://elbuencontador.pe/" target="_blank">
+                <img src="recursos/elbuencontador.png" alt="El Buen Contador">
+            </a>
+            <div class="info">
+                <h3>El Buen Contador</h3>
+                <p>Sitio web para una firma contable, destacando sus servicios financieros y asesoría para empresas. Se implementó un diseño profesional con un enfoque en la claridad y accesibilidad de la información.</p>
+            </div>
+        </article>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="habilidades-container">
+            <div class="habilidad">
+                <img src="recursos/html.png" alt="HTML">
+                <p>HTML</p>
+            </div>
+
+            <div class="habilidad">          
+                <img src="recursos/xamarin.png" alt="Xamarin">
+                <p>Xamarin</p>
+            </div>
+
+            <div class="habilidad">
+                <img src="recursos/woocommerce.png" alt="WooCommerce">
+                <p>WooCommerce</p>
+            </div>
+          
+            <div class="habilidad">
+                <img src="recursos/boostrap.png" alt="Bootstrap">
+                <p>Bootstrap</p>
+            </div>
+          
+            <div class="habilidad">
+                <img src="recursos/php.png" alt="PHP">
+                <p>PHP</p>
+            </div>
+          
+            <div class="habilidad">
+                <img src="recursos/wordpress.png" alt="WordPress">
+                <p>WordPress</p>
+            </div>
+          
+            <div class="habilidad">
+                <img src="recursos/mysql.png" alt="MySQL">
+                <p>MySQL</p>
+            </div>
+          
+            <div class="habilidad">
+                <img src="recursos/illustrator.png" alt="Adobe Illustrator">
+                <p>Adobe Illustrator</p>
+            </div>
+          
+            <div class="habilidad">
+                <img src="recursos/js.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+          
+            <div class="habilidad">
+                <img src="recursos/python.png" alt="Python">
+                <p>Python</p>
+            </div>
+
+            <div class="habilidad">
+                <img src="recursos/css.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+          
+            <div class="habilidad">
+                <img src="recursos/csharp.png" alt="C#">
+                <p>C#</p>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-  <!-- Contacto -->
-  <section id="contacto">
-      <h2 class="titulo-seccion">Contáctame</h2>
-      <form class="formulario">
-          <input type="text" name="nombre" placeholder="Tu Nombre" required>
-          <input type="email" name="correo" placeholder="Tu Correo Electrónico" required>
-          <textarea name="mensaje" placeholder="Tu Mensaje" required></textarea>
-          <button type="submit">Enviar</button>
-      </form>
-  </section>
+    <!-- Experiencia -->
+    <section id="experiencia">
+        <h2>Experiencia</h2>
+        <div class="contenedor-experiencia">
+            <div class="tarjeta">
+                <img src="recursos/tw.webp" alt="Logo Empresa 1">
+                <h3>TECNOVEDADES E.I.R.L</h3>
+                <p class="fecha">Febrero 2024 - Mayo 2024</p>
+                <p class="descripcion">- Desarrollo de sitios web personalizados con WordPress.</p>
+                <p class="descripcion">- Configuración y gestión de correos en Zoho Mail.</p>
+                <p class="descripcion">- Asistencia en reuniones con clientes para explicar el uso de sus sitios web.</p>
+            </div>
+        
+            <div class="tarjeta">
+                <img src="recursos/cs.jpg" alt="Logo Empresa 2">
+                <h3>Grupo Consigue Ventas Inversiones E.I.R.L</h3>
+                <p class="fecha">Septiembre/2024 - Enero/2025</p>
+                <p class="descripcion">- Desarrollo de sitios web personalizados con WordPress.</p>
+                <p class="descripcion">- Desarrollo de sitios web personalizados con WordPress.</p>
+                <p class="descripcion">- Desarrollo de sitios web personalizados con WordPress.</p>
+            </div>
+        </div>
+    </section>
 
-  <button id="btnSubir"><i class="fas fa-arrow-up"></i></button>
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2 class="titulo-seccion">Contáctame</h2>
+        <div class="formulario">
+            <form action="https://formspree.io/f/moveqpar" method="POST">
+                <label>
+                    Tu nombre
+                    <input type="text" name="name" placeholder="Tu nombres" required>
+                </label>
+                <label>
+                    Tu apellido
+                    <input type="text" name="lastname" placeholder="Tus apellidos" required>
+                </label>
+                <label>
+                    Tu correo electrónico
+                    <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                </label>
+                <label>
+                    Tu celular
+                    <input type="number" name="phone" placeholder="Tu celular" required>
+                </label>
+                <label>
+                    Tu mensaje
+                    <textarea name="message" placeholder="Tu mensaje" required></textarea>
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
 
-  <footer id="footer">
-      <div class="footer-container">
-          <a href="#banner"><img src="recursos/logo-dv.png" alt="Logo Cassandra Damian" class="footer-logo"></a>
-          <a href="mailto:cndv35@gmail.com"><p class="contacto">cndv35@gmail.com</p> </a>
-          <a href="https://wa.me/51950689401" target="_blank"><p class="contacto">+51 950 689 401</p> </a>
-      </div>
+    <button id="btnSubir"><i class="fas fa-arrow-up"></i></button>
 
-      <div class="copyright">
-          <p>© 2025 Cassandra Damian. Todos los derechos reservados.</p>
-      </div>
-  </footer>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-container">
+            <a href="#banner"><img src="recursos/logo-dv.png" alt="Logo Cassandra Damian" class="footer-logo"></a>
+            <a href="mailto:cndv35@gmail.com"><p class="contacto">cndv35@gmail.com</p> </a>
+            <a href="https://wa.me/51950689401" target="_blank"><p class="contacto">+51 950 689 401</p> </a>
+        </div>
+
+        <div class="copyright">
+            <p>© 2025 Cassandra Damian. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
